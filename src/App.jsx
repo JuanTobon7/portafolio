@@ -34,7 +34,7 @@ function App() {
     <>
       <NavBar />    
       <div
-        className="absolute inset-0 -z-10 h-screen w-full bg-gray-50 dark:bg-gray-950
+        className="absolute inset-0 -z-10 h-screen w-full bg-gray-950
           bg-[radial-gradient(ellipse_80%_120%_at_50%_-10%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
       ></div>
       <section className="@container mx-auto px-8 sm:max-w-2xl mt-16 md:mt-34 mb-8 md:max-w-4xl">
@@ -51,7 +51,7 @@ function App() {
                 <span
                   className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"
                 ></span>
-                <div className="inline-flex items-center justify-center w-full px-3 py-1 text-blue-800 bg-blue-100 rounded-full cursor-pointer dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
+                <div className="inline-flex items-center justify-center w-full px-3 py-1 rounded-full cursor-pointer bg-gray-800 text-white/80 backdrop-blur-3xl whitespace-nowrap">
                   <a
                     target="_blank"
                     href="https://www.linkedin.com/in/juan-carlos-tobon-montoya"
