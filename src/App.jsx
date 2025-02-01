@@ -37,7 +37,7 @@ function App() {
         className="absolute inset-0 -z-10 h-screen w-full bg-gray-50 dark:bg-gray-950
           bg-[radial-gradient(ellipse_80%_120%_at_50%_-10%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
       ></div>
-      <section className="@container mx-auto px-8 sm:max-w-2xl mt-34 mb-8 md:max-w-4xl">
+      <section className="@container mx-auto px-8 sm:max-w-2xl mt-16 md:mt-34 mb-8 md:max-w-4xl">
 
         <section className="mb-16">
           <div className="flex items-center space-y-4 mb-4 gap-4">
