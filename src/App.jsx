@@ -100,7 +100,7 @@ function App() {
             <FaFolderOpen />
             <h2>Mis Proyectos</h2>
           </div>
-          <p className="text-white mb-4">
+          <p className="text-white mb-6">
             Aquí puedes encontrar algunos de los proyectos en los que he trabajado, aplicando mis conocimientos en desarrollo Full Stack.
           </p>
           <Projects />

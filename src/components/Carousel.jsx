@@ -22,7 +22,7 @@ export default function Carousel({ images = [] }) {
   };
 
   return (
-    <div className="slider-container rounded">
+    <div className="slider-container mb-4 h-auto">
       <style>
         {`
           .slick-dots li {
@@ -41,7 +41,7 @@ export default function Carousel({ images = [] }) {
       </style>
       <Slider {...settings}>
         {images.map((image, index) => (
-          <img key={index} src={image} alt={`Slide ${index + 1}`} className="w-full h-auto object-contain" />
+          <img key={index} src={image} alt={`Slide ${index + 1}`} className="w-full h-auto max-h-[600px] object-cover object-center" />
         ))}
       </Slider>
     </div>
