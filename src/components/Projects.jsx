@@ -39,7 +39,7 @@ export default function Projects() {
     },
     {
       title: 'Catálogo de Ropa - PageRank',
-      description: 'Catálogo inteligente para recomendación de ropa basado en preferencias globales y personales utilizando algoritmos de PageRank.',
+      description: 'Catálogo inteligente para recomendación de ropa basado en preferencias globales y personales utilizando algoritmos de PageRank, con datos escrapeados desde Falabella',
       img: [
         '/projects/catalogo/catalogo.jpg',
         '/projects/catalogo/recomendados.jpg'
