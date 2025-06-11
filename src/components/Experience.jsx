@@ -55,13 +55,13 @@ const Experience = () => {
   return (
     <div
       ref={ref}
-      className="experience grid grid-cols-1 md:grid-cols-2 gap-4 p-4 text-white"
+      className="experience grid grid-cols-1 md:grid-cols-2 gap-4 p-4  text-gray-700 dark:text-gray-300"
     >
-      <p className="years-experience flex flex-col items-center justify-center text-sm md:text-xl text-gray-300">
-        <span className="text-yellow-400 text-6xl font-bold">+1</span> año de experiencia
+      <p className="years-experience flex flex-col items-center justify-center text-sm md:text-xl text-gray-700 dark:text-gray-300">
+        <span className="text-yellow-500 text-6xl font-bold">+1</span> año de experiencia
       </p>
       <div className="flex flex-col items-center justify-between gap-2">
-        <p className="detail-experience text-sm md:text-base text-gray-300">
+        <p className="detail-experience text-sm md:text-base text-gray-700 dark:text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nihil
             dolore ducimus reiciendis pariatur dignissimos mollitia assumenda autem
             perspiciatis quod, unde tempora corrupti eaque aliquid repudiandae!
@@ -71,20 +71,24 @@ const Experience = () => {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/juan-carlos-tobon-montoya"
-                className="text-3xl hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
+                className="text-3xl  text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
+                
               >
                 <FaLinkedin />
               </a>
               <a
                 target="_blank"
                 href="https://github.com/JuanTobon7"
-                className="text-3xl hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
+                className="text-3xl  text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
+                
               >
                 <FaGithub />
               </a>
               <a
                 href="mailto:jctobon11.2@gmail.com?subject=Propuesta de Trabajo."
-                className="text-3xl hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
+                className="text-3xl  text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
+                
+                
                 target="_blank"
               >
                 <SiGmail />

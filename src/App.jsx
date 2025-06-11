@@ -19,7 +19,7 @@ function App() {
     <MasterTimelineProvider>
       <section className="container mx-auto px-8 sm:max-w-2xl md:max-w-7xl">
         <main className="h-screen flex flex-col items-center justify-center gap-10">
-          <MachineTextGSAP text="Desarrollador Web Full Stack" color="dark:text-white text-gray-900" speed={0.03}/>
+          <MachineTextGSAP text="Desarrollador Web Full Stack" color="text-gray-700 dark:text-gray-300" speed={0.03}/>
           <MachineTextGSAP text="Juan Carlos Tobón Montoya" speed={0.02} size="medium" color="text-yellow-500"/>
         </main>
       </section>
@@ -27,15 +27,15 @@ function App() {
         <Experience/>
       </section>
       <section id="skills" className="container mx-auto px-8 sm:max-w-2xl md:max-w-7xl py-10 mb-14">
-        <h2 className="text-white font-semibold mb-4">Skills</h2>
+        <h2 className="text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Skills</h2>
         <CarouselGSAP/>
       </section>
        <section id='projects' className="mb-14 container mx-auto px-8 sm:max-w-2xl md:max-w-7xl py-10">
-          <div className="flex items-center text-3xl font-semibold mb-2 text-white gap-3">
+          <div className="flex items-center text-3xl font-semibold mb-2 text-gray-700 dark:text-gray-300 gap-3">
             <FaFolderOpen />
             <h2>Mis Proyectos</h2>
           </div>
-          <p className="text-white mb-6">
+          <p className="text-gray-700 dark:text-gray-300 mb-6">
             Aquí puedes encontrar algunos de los proyectos en los que he trabajado, aplicando mis conocimientos en desarrollo Full Stack.
           </p>
           <Projects />

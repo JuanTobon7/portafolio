@@ -27,7 +27,7 @@ export default function ThemeToggle() {
     <div className="relative">
       <button
         onClick={toggleMenu}
-        className="p-2 rounded-full text-gray-800 dark:text-gray-200 transition-transform hover:scale-110 cursor-pointer"
+        className="p-2 rounded-full text-gray-700 dark:text-gray-300 transition-transform hover:scale-110 cursor-pointer"
         aria-label="Elegir tema"
       >
         {icons[mode]}
@@ -40,7 +40,7 @@ export default function ThemeToggle() {
           <div
             key={m}
             onClick={() => setMode(m)}
-            className="flex items-center gap-2 px-4 py-2 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-300"
+            className="flex items-center gap-2 px-4 py-2 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
           >
             {icons[m]}
             <span className="capitalize">{m}</span>

@@ -31,7 +31,7 @@
     ],
     "tech": [
       { "name": "Tailwind CSS", "icon": "RiTailwindCssFill", "color": "blue" },
-      { "name": "Python", "icon": "SiPython", "color": "green" },
+      { "name": "Python", "icon": "SiPython", "color": "yellow" },
       { "name": "FastAPI", "icon": "SiFastapi", "color": "green" },
       { "name": "Astro", "icon": "SiAstro", "color": "gray" }
     ],

@@ -78,7 +78,7 @@ const CarouselGSAP = () => {
             className={`carousel-item min-w-[200px] p-4 ${skill.color} mx-2 flex flex-col items-center justify-center`}
           >
             <div className="text-4xl">{skill.icon}</div>
-            <span className="mt-2 text-white font-semibold">{skill.name}</span>
+            <span className="mt-2 text-gray-700 dark:text-gray-300 font-semibold">{skill.name}</span>
           </div>
         ))}
       </div>
