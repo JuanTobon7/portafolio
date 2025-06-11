@@ -1,0 +1,42 @@
+[
+  {
+    "title": "ViddeFe",
+    "url": "https://viddefe.com",
+    "description": "VID DE FE es una aplicación web diseñada para facilitar la administración de comunidades cristianas. Permite programar cultos, asignar tareas a miembros, registrar visitas pastorales y hacer seguimiento académico de estudiantes en cursos bíblicos. Esta plataforma busca digitalizar y optimizar las operaciones internas de las iglesias, promoviendo una gestión más organizada, conectada y efectiva.",
+    "img": [
+      "/projects/viddefe/ViddeFe.png",
+      "/projects/viddefe/LoginViddeFe.png",
+      "/projects/viddefe/Feed.png"
+    ],
+    "tech": [
+      { "name": "Tailwind CSS", "icon": "RiTailwindCssFill", "color": "blue" },
+      { "name": "Vue.js", "icon": "FaVuejs", "color": "green" },
+      { "name": "Express.js", "icon": "SiExpress", "color": "gray" },
+      { "name": "PostgreSQL", "icon": "BiLogoPostgresql", "color": "blue" },
+      { "name": "Node.js", "icon": "FaNodeJs", "color": "green" }
+    ],
+    "repos": [
+      { "name": "Frontend", "url": "https://github.com/JuanTobon7/solutionsGray-Front", "icon": "FaGithub" },
+      { "name": "Backend", "url": "https://github.com/JuanTobon7/solutionsGray-Back", "icon": "FaGithub" },
+      { "name": "Drawer", "url": "https://drive.google.com/file/d/1mWMENoXdN-53km9ufaZAOqG5YOkBIc8y/view?usp=drive_link", "icon": "MdOutlineSchema" },
+      { "name": "Preview", "url": "https://viddefe.com", "icon": "FaLink" }
+    ]
+  },
+  {
+    "title": "Catálogo de Ropa - PageRank",
+    "description": "Catálogo inteligente para recomendación de ropa basado en preferencias globales y personales utilizando algoritmos de PageRank, con datos escrapeados desde Falabella",
+    "img": [
+      "/projects/catalogo/catalogo.jpg",
+      "/projects/catalogo/recomendados.jpg"
+    ],
+    "tech": [
+      { "name": "Tailwind CSS", "icon": "RiTailwindCssFill", "color": "blue" },
+      { "name": "Python", "icon": "SiPython", "color": "green" },
+      { "name": "FastAPI", "icon": "SiFastapi", "color": "green" },
+      { "name": "Astro", "icon": "SiAstro", "color": "gray" }
+    ],
+    "repos": [
+      { "name": "MonoRepo", "url": "https://github.com/JuanTobon7/catalogo-ropa-con-PageRank", "icon": "FaGithub" }
+    ]
+  }
+]

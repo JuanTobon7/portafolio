@@ -2,8 +2,10 @@
 
 @theme {  --breakpoint-xs: 30rem;  --breakpoint-2xl: 100rem;  --breakpoint-3xl: 120rem;}
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-    @apply bg-gray-950;
+    @apply bg-white dark:bg-gray-950;
 }
 
 /* styles.css o global */
@@ -23,4 +25,28 @@
     black 90%,
     transparent 100%
   );
+}
+
+#themes-menu.open {
+  display: inline;
+  animation: scale-up-center 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes scale-up-center {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.open {
+  display: block;
+  animation: fade-in 0.15s ease-out forwards;
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
 }

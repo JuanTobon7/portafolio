@@ -12,14 +12,14 @@ function App() {
   return (
     <>
     <div
-        className="absolute inset-0 -z-10 h-screen w-full bg-gray-950
+        className="absolute inset-0 -z-10 h-screen w-full bg-white dark:bg-gray-950
         bg-[radial-gradient(ellipse_80%_110%_at_50%_-10%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
         ></div>
-      <NavBar/>
+    <NavBar/>
     <MasterTimelineProvider>
       <section className="container mx-auto px-8 sm:max-w-2xl md:max-w-7xl">
-        <main className="text-white h-screen flex flex-col items-center justify-center gap-10">
-          <MachineTextGSAP text="Desarrollador Web Full Stack" speed={0.03}/>
+        <main className="h-screen flex flex-col items-center justify-center gap-10">
+          <MachineTextGSAP text="Desarrollador Web Full Stack" color="dark:text-white text-gray-900" speed={0.03}/>
           <MachineTextGSAP text="Juan Carlos Tobón Montoya" speed={0.02} size="medium" color="text-yellow-500"/>
         </main>
       </section>
@@ -42,7 +42,9 @@ function App() {
         </section>
     </MasterTimelineProvider>
     <ArrowDown />
-    <Footer />
+    <section className="container mx-auto px-8 sm:max-w-2xl md:max-w-7xl py-10 mb-14">
+      <Footer />
+    </section>
     </>
   );
 }
