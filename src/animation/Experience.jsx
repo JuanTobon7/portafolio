@@ -56,10 +56,10 @@ const Experience = () => {
   return (
     <div className="relative w-full max-w-5xl mx-auto py-10 px-4">
       {/* Línea central */}
-      <div className="absolute left-4 md:left-1/2 top-0 h-full w-1 bg-gray-300 dark:bg-gray-600 transform md:-translate-x-1/2" />
+      <div className="absolute left-4 md:left-1/2 top-0 h-full w-1 bg-gray-300 dark:bg-gray-600 transform -translate-x-1/2" />
 
       {experiences.map((exp, idx) => {
-        const isLeft = idx % 2 === 0;
+        const isLeft = idx % 2 === 1;
 
         return (
           <div
@@ -71,7 +71,7 @@ const Experience = () => {
             }`}
           >
             {/* Punto en la línea */}
-            <div className="z-10 w-5 h-5 bg-yellow-400 rounded-full border-4 border-white dark:border-gray-900 shadow-md absolute left-2 md:left-1/2 top-2 transform md:-translate-x-1/2" />
+            <div className="z-10 w-5 h-5 bg-yellow-400 rounded-full border-4 border-white dark:border-gray-900 shadow-md absolute -left-2 md:left-1/2 top-2 transform md:-translate-x-1/2" />
 
             {/* Línea divisoria (espaciador visual entre punto y contenido) */}
             <div className="hidden md:block w-5 h-1 bg-transparent" />

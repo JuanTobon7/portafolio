@@ -28,12 +28,12 @@ const iconMap = {
 };
 
 const colorClasses = {
-  blue: "bg-blue-500/30 text-blue-600 dark:text-blue-300 hover:bg-blue-500/40",
-  green: "bg-green-400/20 text-green-600 dark:text-green-300 hover:bg-green-500/40",
-  red: "bg-red-400/20 text-red-600 dark:text-red-400 hover:bg-red-500/40",
+  blue: "bg-blue-400/30 text-blue-500 dark:text-blue-300 hover:bg-blue-500/40",
+  green: "bg-green-400/20 text-green-600 dark:text-green-300 hover:bg-green-400/40",
+  red: "bg-red-400/20 text-red-600 dark:text-red-200 hover:bg-red-400/40",
   gray: "bg-gray-400/20 text-gray-700 dark:text-gray-200 hover:bg-gray-400/40",
-  yellow: "bg-yellow-300/30 text-yellow-700 dark:text-yellow-300 hover:bg-yellow-400/40",
-  purple: "bg-purple-400/20 text-purple-700 dark:text-purple-300 hover:bg-purple-500/40",
+  yellow: "bg-yellow-400/30 text-yellow-700 dark:text-yellow-200 hover:bg-yellow-400/40",
+  purple: "bg-purple-400/20 text-purple-700 dark:text-purple-200 hover:bg-purple-400/40",
 };
 
 export default function Projects() {
@@ -42,7 +42,7 @@ export default function Projects() {
       {projectData.map((item) => (
         <article
           key={item.title}
-          className="relative group overflow-hidden rounded-lg border border-gray-300 dark:border-gray-700 bg-gray-200 hover:bg-gray-300/80 dark:bg-gray-800 dark:hover:bg-gray-900 transition-colors duration-75"
+          className="relative group overflow-hidden rounded-lg border border-gray-300 dark:border-gray-700 shadow-lg dark:bg-gray-800 hover:shadow-xl transition-shadow duration-300"
           aria-labelledby={`project-title-${item.title}`}
         >
           {/* Imagen principal */}
@@ -55,7 +55,7 @@ export default function Projects() {
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-white/90 dark:bg-black/85 text-black dark:text-white md:opacity-0 opacity-100 group-hover:scale-105 group-hover:opacity-100 flex flex-col justify-end p-8 gap-3 backdrop-blur-sm">
+            <div className="absolute inset-0 bg-gray-200/90 dark:bg-black/85 text-black dark:text-white md:opacity-0 opacity-100 group-hover:scale-105 group-hover:opacity-100 flex flex-col justify-end p-8 gap-3 backdrop-blur-sm">
               <h3 className="text-xl font-bold">{item.title}</h3>
 
               {/* Tecnologías */}

@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { TbFileCv } from "react-icons/tb";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,19 +22,19 @@ const Experience = () => {
     tl.fromTo(
       years,
       { autoAlpha: 0, x: -50 },
-      { autoAlpha: 1, x: 0, duration: 1, ease: "power2.out" }
+      { autoAlpha: 1, x: 0, duration: 0.3, ease: "power2.out" }
     );
 
     tl.fromTo(
       detail,
       { autoAlpha: 0, x: 50 },
-      { autoAlpha: 1, x: 0, duration: 1, ease: "power2.out" },
+      { autoAlpha: 1, x: 0, duration: 0.3, ease: "power2.out" },
       "<0.5"
     );
     tl.fromTo(
       contact,
       { autoAlpha: 0, y: -15},
-      { autoAlpha: 1, x: 0, y:0, duration: 1, ease: "power2.out" },
+      { autoAlpha: 1, x: 0, y:0, duration: 0.3, ease: "power2.out" },
       "<0.5"
     );
 
@@ -58,15 +59,18 @@ const Experience = () => {
       className="experience grid grid-cols-1 md:grid-cols-2 gap-4 p-4  text-gray-700 dark:text-gray-300"
     >
       <p className="years-experience flex flex-col items-center justify-center text-sm md:text-xl text-gray-700 dark:text-gray-300">
-        <span className="text-yellow-500 text-6xl font-bold">+1</span> año de experiencia
+        <span className="text-yellow-500 text-7xl font-bold">+1</span> año de experiencia
       </p>
       <div className="flex flex-col items-center justify-between gap-2">
-        <p className="detail-experience text-sm md:text-base text-gray-700 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nihil
-            dolore ducimus reiciendis pariatur dignissimos mollitia assumenda autem
-            perspiciatis quod, unde tempora corrupti eaque aliquid repudiandae!
-            Placeat enim inventore omnis!
-        </p>
+        <div className="detail-experience text-sm md:text-base text-gray-700 dark:text-gray-300 space-y-2 grid items-center justify-center">
+            <p>
+              Hola, soy <strong className="text-yellow-500">Juan Carlos Tobón Montoya</strong>, colombiano nacido en Villavicencio, Meta. Me apasiona el desarrollo de software porque me permite crear soluciones desde cero y ver cómo cobran vida a través del código.
+            </p>
+            <p>
+              Soy una persona responsable, comprometida y con un fuerte deseo de aprender constantemente. Me adapto bien al trabajo en equipo, tanto en entornos presenciales como remotos.
+            </p>
+          </div>
+
          <div className="flex items-center justify-center @md:justify-start gap-4 contact">
               <a
                 target="_blank"
@@ -92,6 +96,13 @@ const Experience = () => {
                 target="_blank"
               >
                 <SiGmail />
+              </a>
+              <a
+                href="/cv.pdf"
+                className="text-3xl  text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
+                download
+              >
+                <TbFileCv />
               </a>
             </div>
       </div>
