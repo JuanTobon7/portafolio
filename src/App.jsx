@@ -1,12 +1,16 @@
 import Footer from "./components/Footer.jsx";
 import MachineTextGSAP from "./animation/MachineTextGSAP.jsx";
 import { MasterTimelineProvider } from "./animation/TimeLineGSAP.jsx";
-import Experience from "./components/Experience.jsx";
+import ContactMe from "./animation/ContactMe.jsx";
 import CarouselGSAP from "./animation/CarouselGSAP.jsx";
 import ArrowDown from "./animation/ArrowDown.jsx";
 import Projects from "./components/Projects.jsx";
+import Experience from "./animation/Experience.jsx";
 import { FaFolderOpen } from "react-icons/fa";
 import NavBar from "./components/NavBar.jsx"
+import { FiBriefcase } from 'react-icons/fi';
+import { PiCertificateBold } from "react-icons/pi";
+import Educuation from "./components/Education.jsx"
 // Registrar el plugin de texto
 function App() {
   return (
@@ -24,7 +28,7 @@ function App() {
         </main>
       </section>
       <section id="projects" className="container mx-auto px-8 sm:max-w-2xl md:max-w-7xl py-10 mb-14">
-        <Experience/>
+        <ContactMe/>
       </section>
       <section id="skills" className="container mx-auto px-8 sm:max-w-2xl md:max-w-7xl py-10 mb-14">
         <h2 className="text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Skills</h2>
@@ -39,6 +43,21 @@ function App() {
             Aquí puedes encontrar algunos de los proyectos en los que he trabajado, aplicando mis conocimientos en desarrollo Full Stack.
           </p>
           <Projects />
+        </section>
+        <section id='experience' className="mb-14 container mx-auto px-8 sm:max-w-2xl md:max-w-7xl py-10">
+          <div className="flex items-center text-3xl font-semibold mb-2 text-gray-700 dark:text-gray-300 gap-3">
+            <FiBriefcase />
+            <h2>Experiencia Laboral</h2>
+          </div>
+          <Experience />
+        </section>
+        <section id='education' className="mb-14 container mx-auto px-8 sm:max-w-2xl md:max-w-7xl py-10 gap-3">
+          <div className="flex items-center text-3xl font-semibold mb-2 text-gray-700 dark:text-gray-300 gap-3">
+            <PiCertificateBold />
+            <h2>Educacion</h2>
+          </div>
+            <p className="text-gray-700 dark:text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio maiores dicta iste facere beatae quod laborum aliquam esse deserunt? Molestias, asperiores accusantium. Corporis, similique. Sint labore illo eveniet sunt nostrum.</p>
+          <Educuation />
         </section>
     </MasterTimelineProvider>
     <ArrowDown />

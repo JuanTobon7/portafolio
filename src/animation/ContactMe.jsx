@@ -21,19 +21,19 @@ const Experience = () => {
     tl.fromTo(
       years,
       { autoAlpha: 0, x: -50 },
-      { autoAlpha: 1, x: 0, duration: 1.5, ease: "power2.out" }
+      { autoAlpha: 1, x: 0, duration: 1, ease: "power2.out" }
     );
 
     tl.fromTo(
       detail,
       { autoAlpha: 0, x: 50 },
-      { autoAlpha: 1, x: 0, duration: 1.5, ease: "power2.out" },
+      { autoAlpha: 1, x: 0, duration: 1, ease: "power2.out" },
       "<0.5"
     );
     tl.fromTo(
       contact,
       { autoAlpha: 0, y: -15},
-      { autoAlpha: 1, x: 0, y:0, duration: 1.5, ease: "power2.out" },
+      { autoAlpha: 1, x: 0, y:0, duration: 1, ease: "power2.out" },
       "<0.5"
     );
 

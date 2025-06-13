@@ -33,10 +33,31 @@
       { "name": "Tailwind CSS", "icon": "RiTailwindCssFill", "color": "blue" },
       { "name": "Python", "icon": "SiPython", "color": "yellow" },
       { "name": "FastAPI", "icon": "SiFastapi", "color": "green" },
-      { "name": "Astro", "icon": "SiAstro", "color": "gray" }
+      { "name": "Astro", "icon": "SiAstro", "color": "gray" },
+      { "name": "React", "icon": "FaReact", "color": "blue" }
     ],
     "repos": [
       { "name": "MonoRepo", "url": "https://github.com/JuanTobon7/catalogo-ropa-con-PageRank", "icon": "FaGithub" }
+    ]
+  },
+  {  
+    "title": "ICFES Backend API",  
+    "url": "http://localhost:8080",  
+    "description": "Sistema backend para la gestión y análisis de resultados de pruebas ICFES Saber Pro. Permite administrar usuarios con roles específicos (Decano, Director de Programa, Coordinador), procesar archivos de resultados de pruebas, y generar reportes académicos. La plataforma digitaliza la gestión de datos educativos institucionales con autenticación JWT y control de acceso basado en roles.",  
+    "img": [
+      "/projects/icfes/icfes-tech.jpeg"
+      ],
+    "tech": [  
+      { "name": "Spring Boot", "icon": "SiSpringboot", "color": "green" },  
+      { "name": "Java 21", "icon": "FaJava", "color": "red" },  
+      { "name": "PostgreSQL", "icon": "BiLogoPostgresql", "color": "blue" },  
+      { "name": "JWT", "icon": "SiJsonwebtokens", "color": "purple" },  
+      { "name": "Liquibase", "icon": "FaDatabase", "color": "blue" },  
+      { "name": "Gradle", "icon": "SiGradle", "color": "gray" }  
+    ],  
+    "repos": [  
+      { "name": "Backend API", "url": "https://github.com/jhonmatt811/Proyecto_Saber_pro/tree/main/api", "icon": "FaGithub" },  
+      { "name": "Documentation", "url": "https://drive.google.com/drive/folders/1g0OgYWU5A8qp6gBM8auZcETDqteJ7poy", "icon": "MdDescription" }  
     ]
   }
 ]

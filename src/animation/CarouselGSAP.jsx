@@ -8,12 +8,11 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaAws,
-  FaJava,  
+  FaJava  
 } from "react-icons/fa";
 import {
   SiJavascript,
   SiExpress,
-  SiPostgresql,
   SiTailwindcss,
   SiRedis,
   SiLaravel,
@@ -22,6 +21,7 @@ import {
   SiReact,
   SiTypescript
 } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const CarouselGSAP = () => {
   const containerRef = useRef(null);
@@ -34,15 +34,15 @@ const CarouselGSAP = () => {
     { icon: <SiTailwindcss />, name: "Tailwind CSS", color: "text-cyan-400" },
     { icon: <FaNodeJs />, name: "Node.js", color: "text-green-600" },
     { icon: <SiTypescript />, name: "TypeScript", color: "text-blue-600" },
-    { icon: <SiExpress />, name: "Express.js", color: "text-gray-700" },
+    { icon: <SiExpress />, name: "Express.js", color: "text-gray-800 dark:text-gray-100" },
     { icon: <SiPhp />, name: "PHP", color: "text-purple-600" },
     { icon: <SiLaravel />, name: "Laravel", color: "text-red-700" },
     { icon: <FaJava />, name: "Java", color: "text-orange-800" },
     { icon: <SiSpringboot />, name: "Spring Boot", color: "text-green-700" },
-    { icon: <SiPostgresql />, name: "PostgreSQL", color: "text-blue-700" },
+    { icon: <BiLogoPostgresql />, name: "PostgreSQL", color: "text-blue-700 dark:text-blue-500" },
     { icon: <SiRedis />, name: "Redis", color: "text-red-600" },
     { icon: <FaGitAlt />, name: "Git", color: "text-orange-600" },
-    { icon: <FaGithub />, name: "GitHub", color: "text-gray-800" },
+    { icon: <FaGithub />, name: "GitHub", color: "text-gray-800 dark:text-gray-100" },
     { icon: <FaAws />, name: "AWS", color: "text-yellow-600" },
   ]
   useEffect(() => {
