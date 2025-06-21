@@ -91,14 +91,12 @@ const Experience = () => {
               <a
                 href="mailto:jctobon11.2@gmail.com?subject=Propuesta de Trabajo."
                 className="text-3xl  text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
-                
-                
                 target="_blank"
               >
                 <SiGmail />
               </a>
               <a
-                href="/cv.pdf"
+                href="/Juan_Carlos_Tobón_Montoya_CV.pdf"
                 className="text-3xl  text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-200 hover:scale-110 duration-300 ease-in-out transition-colors"
                 download
               >
